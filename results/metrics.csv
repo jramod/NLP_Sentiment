@@ -1,0 +1,4 @@
+Model,Activation,Optimizer,SeqLen,GradClipping,Accuracy,F1,EpochTime
+lstm,tanh,adam,100,True,0.8033,0.8028,16.25
+bilstm,tanh,adam,200,True,0.8410,0.8406,75.02
+lstm,relu,adam,200,True,0.8390,0.8389,45.69
