@@ -1,1 +1,18 @@
-IMDB Dataset 2.csv
+# Ignore dataset and temporary files
+data/
+*.gz
+*.zip
+*.tar
+*.csv
+
+# Python cache and virtual envs
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# OS junk
+.DS_Store
+
+# Results (optional to exclude)
+results/plots/*.png
